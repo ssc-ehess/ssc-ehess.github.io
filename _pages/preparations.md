@@ -32,6 +32,12 @@ Par la suite, l'environnement devra être activé à chaque session, en tapant:
 conda activate py
 ```
 
+Enfin, installez `datalad', qui permet de téléchargement facilement les données du cours:
+
+```bash
+conda install datalad
+```
+
 ### 3. Préinstaller des paquets python avec pip
 
 Une fois l'environnement conda activé, vous pouvez installer des "paquets" python qui étendent les fonctionnalités de base du langage. Pour cela, nous utilisons le gestionnaire de paquets python "pip".
@@ -39,12 +45,23 @@ Une fois l'environnement conda activé, vous pouvez installer des "paquets" pyth
 Vous pouvez d'ores-et-déjà installer les paquets, qui seront nécessaires pour reproduire les exemples du cours:
 
 ```bash
-pip install numpy pandas fastparquet scipy networkx bertopic notebook matplotlib
+pip install numpy pandas fastparquet scipy networkx bertopic notebook matplotlib datalad
 ```
 
-### 4. Télécharger les données du cours
+### 4. Télécharger les notebooks et données du cours
 
+Enfin, vous pouvez installer les notebooks (exemples) et datasets du cours en une commande:
 
+```bash
+datalad install -r https://github.com/ssc-ehess/notebooks.git
+```
+
+Cela ne télécharge pas automatiquement toutes les données, qui prennent un peu de place. Si vous souhaitez utiliser le dataset climat, par exemple, faites:
+
+```bash
+cd notebooks
+datalad get science/climate
+```
 
 
 
