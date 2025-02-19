@@ -2,7 +2,7 @@
 layout: page
 permalink: /notebooks/
 title: Notebooks
-description: Notebooks du cours
+description: 
 nav: true
 nav_order: 4
 toc: true
