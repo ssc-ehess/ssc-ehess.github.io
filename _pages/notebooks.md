@@ -4,7 +4,7 @@ permalink: /notebooks/
 title: Notebooks
 description: Notebooks du cours
 nav: true
-nav_order: 3
+nav_order: 4
 toc: true
 ---
 
