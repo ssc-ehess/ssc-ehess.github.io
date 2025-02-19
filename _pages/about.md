@@ -1,6 +1,6 @@
 ---
-layout: Accueil
-title: accueil
+layout: about
+title: Accueil
 permalink: /
 subtitle: 
 
