@@ -3,15 +3,15 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-accueil",
+    title: "accueil",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-préparations",
           title: "Préparations",
-          description: "Préparer un environnement de programmation pour les sciences sociales computationnelles.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/preparations/";
