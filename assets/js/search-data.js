@@ -9,12 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
+  },{id: "nav-préparations",
+          title: "Préparations",
+          description: "Préparer un environnement de programmation pour les sciences sociales computationnelles.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/preparations/";
+          },
+        },{id: "nav-datasets",
+          title: "Datasets",
+          description: "Présentation des datasets sur lesquels s&#39;appuie le cours.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/datasets/";
           },
         },{id: "nav-projects",
           title: "projects",
@@ -22,20 +29,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
