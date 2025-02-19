@@ -23,3 +23,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+Bienvenue sur le site du séminaire d'introduction avancée aux sciences sociales computationnelles de l'EHESS.
