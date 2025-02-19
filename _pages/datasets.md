@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: page
 permalink: /datasets/
 title: Datasets
 description: Présentation des datasets sur lesquels s'appuie le cours.

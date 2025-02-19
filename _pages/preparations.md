@@ -2,13 +2,13 @@
 layout: page
 permalink: /preparations/
 title: Préparations
+description: Préparer son environnement de programmation
 nav: true
 nav_order: 2
 toc:
   sidebar: left
 ---
 
-## Préparer son environnement de programmation
 
 ### 1. Installer anaconda
 
@@ -17,10 +17,11 @@ Pour l'installer, suivez les instructions ci-dessous, en fonction de votre syst�
 
 [https://docs.anaconda.com/anaconda/install/](https://docs.anaconda.com/anaconda/install/)
 
+---
 
 ### 2. Créer un environnement conda avec python 3.10
 
-Ouvrez un terminal (sous windows, via anaconda <d-footnote>Pour lancer le terminal Anaconda, appuyez sur les touches (Win + S), et tapez "Anaconda Prompt" (d'après ChatGPT...).</d-footnote>) et exécutez la commande suivante :
+Ouvrez un terminal (sous windows, via anaconda <footnote>Pour lancer le terminal Anaconda, appuyez sur les touches (Win + S), et tapez "Anaconda Prompt" (d'après ChatGPT...).</footnote>) et exécutez la commande suivante :
 
 ```bash
 conda install -n py python=3.10
@@ -38,6 +39,8 @@ Enfin, installez `datalad', qui permet de téléchargement facilement les donné
 conda install datalad
 ```
 
+---
+
 ### 3. Préinstaller des paquets python avec pip
 
 Une fois l'environnement conda activé, vous pouvez installer des "paquets" python qui étendent les fonctionnalités de base du langage. Pour cela, nous utilisons le gestionnaire de paquets python "pip".
@@ -47,6 +50,8 @@ Vous pouvez d'ores-et-déjà installer les paquets, qui seront nécessaires pour
 ```bash
 pip install numpy pandas fastparquet scipy networkx bertopic notebook matplotlib datalad
 ```
+
+---
 
 ### 4. Télécharger les notebooks et données du cours
 
