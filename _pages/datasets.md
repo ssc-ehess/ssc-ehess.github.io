@@ -5,7 +5,8 @@ title: Datasets
 description: Présentation des datasets sur lesquels s'appuie le cours.
 nav: true
 nav_order: 3
-toc: true
+toc:
+  sidebar: left
 ---
 
 ## 1. Science
