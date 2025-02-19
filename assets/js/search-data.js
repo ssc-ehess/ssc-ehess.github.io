@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-préparations",
           title: "Préparations",
-          description: "",
+          description: "Préparer son environnement de programmation",
           section: "Navigation",
           handler: () => {
             window.location.href = "/preparations/";
