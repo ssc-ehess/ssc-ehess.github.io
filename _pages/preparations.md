@@ -20,7 +20,7 @@ Pour l'installer, suivez les instructions ci-dessous, en fonction de votre syst�
 
 ### 2. Créer un environnement conda avec python 3.10
 
-Ouvrez un terminal (sous windows, via anaconda) et exécutez la commande suivante :
+Ouvrez un terminal (sous windows, via anaconda <d-footnote>Pour lancer le terminal Anaconda, appuyez sur les touches (Win + S), et tapez "Anaconda Prompt" (d'après ChatGPT...).</d-footnote>) et exécutez la commande suivante :
 
 ```bash
 conda install -n py python=3.10
