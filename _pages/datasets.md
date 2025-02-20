@@ -11,7 +11,8 @@ toc:
 
 ## 1. Science
 
-Nous proposons deux datasets 
+Nous proposons deux datasets issus de données extraites de <a href="https://openalex.org/">OpenAlex</a>. 
+Chacun des datasets recense les articles (titre, abstract, références), auteurs, affiliations d'un corpus de littérature scientifique.
 
 ### 1.1 Climat (2015-2025)
 
