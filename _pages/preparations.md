@@ -68,6 +68,8 @@ cd notebooks
 datalad get science/climate
 ```
 
+---
+
 ### 5. Ouvrir les notebooks
 
 Pour lancer un notebook:
