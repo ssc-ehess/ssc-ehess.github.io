@@ -13,7 +13,13 @@ toc:
 
  1. [Exploration des données avec pandas](https://github.com/ssc-ehess/notebooks/blob/main/1_data_exploration.ipynb)
 
+---
+
 ## 2. Réseaux
 
+---
+
 ## 3. Texte
+
+---
 
