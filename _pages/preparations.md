@@ -82,6 +82,12 @@ jupyter notebook
 ```
 4. Un onglet va s'ouvrir dans votre navigateur. Vous pourrez alors ouvrir le notebook de votre choix.
 
+> ##### TIP
+>
+> N'oublié pas de mettre régulièrement vos notebooks à jour en tapant
+> `git pull` dans le terminal.
+{: .block-tip }
+
 ---
 
 [^1]: Pour lancer le terminal Anaconda sous windows, appuyez sur les touches (Win + S), et tapez "Anaconda Prompt" (d'après ChatGPT...).
