@@ -21,7 +21,7 @@ Pour l'installer, suivez les instructions ci-dessous, en fonction de votre syst�
 
 ### 2. Créer un environnement conda avec python 3.10
 
-Ouvrez un terminal (sous windows, via anaconda <footnote>Pour lancer le terminal Anaconda, appuyez sur les touches (Win + S), et tapez "Anaconda Prompt" (d'après ChatGPT...).</footnote>) et exécutez la commande suivante :
+Ouvrez un terminal (sous windows, via anaconda [^1]) et exécutez la commande suivante :
 
 ```bash
 conda install -n py python=3.10
@@ -38,6 +38,8 @@ Enfin, installez `datalad', qui permet de téléchargement facilement les donné
 ```bash
 conda install datalad
 ```
+
+[^1]: Pour lancer le terminal Anaconda sous windows, appuyez sur les touches (Win + S), et tapez "Anaconda Prompt" (d'après ChatGPT...).
 
 ---
 
@@ -68,5 +70,15 @@ cd notebooks
 datalad get science/climate
 ```
 
+### 5. Ouvrir les notebooks
 
+Pour lancer un notebook:
 
+1. Ouvrir le terminal
+2. Placez vous dans le répertoire notebooks (e.g. `cd notebooks`). [Pour connaître votre position dans l'arborescence: `pwd`]
+3. Exécutez la commande:
+
+```bash
+jupyter notebook
+```
+4. Un onglet va s'ouvrir dans votre navigateur. Vous pourrez alors ouvrir le notebook de votre choix.
