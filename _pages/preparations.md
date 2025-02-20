@@ -39,8 +39,6 @@ Enfin, installez `datalad', qui permet de téléchargement facilement les donné
 conda install datalad
 ```
 
-[^1]: Pour lancer le terminal Anaconda sous windows, appuyez sur les touches (Win + S), et tapez "Anaconda Prompt" (d'après ChatGPT...).
-
 ---
 
 ### 3. Préinstaller des paquets python avec pip
@@ -77,8 +75,11 @@ Pour lancer un notebook:
 1. Ouvrir le terminal
 2. Placez vous dans le répertoire notebooks (e.g. `cd notebooks`). [Pour connaître votre position dans l'arborescence: `pwd`]
 3. Exécutez la commande:
-
 ```bash
 jupyter notebook
 ```
 4. Un onglet va s'ouvrir dans votre navigateur. Vous pourrez alors ouvrir le notebook de votre choix.
+
+---
+
+[^1]: Pour lancer le terminal Anaconda sous windows, appuyez sur les touches (Win + S), et tapez "Anaconda Prompt" (d'après ChatGPT...).
