@@ -23,4 +23,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Bienvenue sur le site du séminaire d'introduction avancée aux sciences sociales computationnelles de l'EHESS.
+Bienvenue sur le site du [séminaire d'introduction avancée aux sciences sociales computationnelles](https://enseignements.ehess.fr/2024-2025/ue/338) de l'EHESS.
+
+Vous y trouverez des instructions pour démarrer, ainsi que les données et notebooks servant d'appui au cours. 
