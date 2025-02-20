@@ -24,7 +24,7 @@ Pour l'installer, suivez les instructions ci-dessous, en fonction de votre syst�
 Ouvrez un terminal (sous windows, via anaconda [^1]) et exécutez la commande suivante :
 
 ```bash
-conda install -n py python=3.10
+conda create --name py python=3.10
 ```
 
 Par la suite, l'environnement devra être activé à chaque session, en tapant:
