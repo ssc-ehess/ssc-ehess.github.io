@@ -21,7 +21,7 @@ Ce jeu de données couvre la littérature scientifique sur le climat de 2015 à 
 Pour le télécharger, installez les notebooks (comme expliqué [ici](preparations/#4-télécharger-les-notebooks-et-données-du-cours)), puis exécutez la commande suivante:
 
 ```bash
-datalad get science/climate
+datalad get science/climate -s s3
 ```
 
 ### 1.2 Sciences économiques (2019-2025)

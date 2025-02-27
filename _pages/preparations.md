@@ -65,7 +65,7 @@ Cela ne télécharge pas automatiquement toutes les données, qui prennent un pe
 
 ```bash
 cd notebooks
-datalad get science/climate
+datalad get science/climate -s s3
 ```
 
 ---
