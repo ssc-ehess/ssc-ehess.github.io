@@ -18,6 +18,12 @@ Chacun des datasets recense les articles (titre, abstract, références), auteur
 
 Ce jeu de données couvre la littérature scientifique sur le climat de 2015 à 2025. Il comprend environ 200.000 articles.
 
+#### Téléchargement manuel
+
+ - Téléchargement rapide [ici](https://scc-ehess-science.s3.eu-west-1.amazonaws.com/MD5E-s766794240--862572f2ed4d98c4ba32f4993f19419e.tar).
+ - Téléchargement lent (backup) [ici](https://gin.g-node.org/lucasgautheron/science/raw/master/climate.tar).
+
+#### Téléchargement automatique
 Pour le télécharger, installez les notebooks (comme expliqué [ici](preparations/#4-télécharger-les-notebooks-et-données-du-cours)), puis exécutez la commande suivante:
 
 ```bash
@@ -29,7 +35,7 @@ datalad get science/climate -s s3
 > ##### Attention
 >
 > Ce jeu de données est relativement lourd. 
-> Prévoir 1 Go d'espace disque, et 8 Go de mémoire vive au minimum.
+> Prévoir 2 Go d'espace disque, et 8 Go de mémoire vive au minimum.
 > Dans le cas contraire, privilégiez les autres datasets.
 {: .block-warning }
 

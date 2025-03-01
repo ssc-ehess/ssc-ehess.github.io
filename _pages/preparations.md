@@ -33,12 +33,6 @@ Par la suite, l'environnement devra être activé à chaque session, en tapant:
 conda activate py
 ```
 
-Enfin, installez `datalad', qui permet de téléchargement facilement les données du cours:
-
-```bash
-conda install -c conda-forge datalad
-```
-
 ---
 
 ### 3. Préinstaller des paquets python avec pip
@@ -55,18 +49,43 @@ pip install numpy pandas fastparquet scipy networkx bertopic notebook matplotlib
 
 ### 4. Télécharger les notebooks et données du cours
 
-Enfin, vous pouvez installer les notebooks (exemples) et datasets du cours en une commande:
+Vous pouvez installer les notebooks ainsi:
 
 ```bash
-datalad install -r https://github.com/ssc-ehess/notebooks.git
+git clone https://github.com/ssc-ehess/notebooks.git
+```
+
+Pour les données, il y a deux approches:
+
+a. Le téléchargement manuel
+b. Le téléchargement automatique
+
+#### a. Téléchargement manuel
+
+1. Téléchargez la ou les archives souhaitées depuis la page des datasets: [ssc-ehess.github.io/datasets/](https://ssc-ehess.github.io/datasets/).
+2. Placez les dans le dossier "notebooks".
+3. Extrayez l'archive dans le dossier notebooks. 
+
+#### b. Téléchargement automatique
+
+Installez `datalad', qui permet de téléchargement facilement les données du cours:
+
+```bash
+conda install -c conda-forge datalad
+```
+
+Depuis le dossier contenant les notebooks, tapez:
+
+```bash
+datalad install science
 ```
 
 Cela ne télécharge pas automatiquement toutes les données, qui prennent un peu de place. Si vous souhaitez utiliser le dataset climat, par exemple, faites:
 
 ```bash
-cd notebooks
 datalad get science/climate -s s3
 ```
+
 
 ---
 
