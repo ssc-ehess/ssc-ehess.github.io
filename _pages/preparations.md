@@ -36,7 +36,7 @@ conda activate py
 Enfin, installez `datalad', qui permet de téléchargement facilement les données du cours:
 
 ```bash
-conda install datalad
+conda install -c conda-forge datalad
 ```
 
 ---
