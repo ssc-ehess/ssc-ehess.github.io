@@ -52,15 +52,4 @@ datalad get science/econ
 
 ### 2. Impact investing (twitter)
 
-
-#### Téléchargement manuel
-
- - Téléchargement des graphes (RT) [ici](https://gin.g-node.org/lucasgautheron/twitter/raw/master/retweet-graphs.zip)
-
-#### Téléchargement automatique
-
-Pour télécharger le corpus automatiquement, installez les notebooks (comme expliqué [ici](preparations/#4-télécharger-les-notebooks-et-données-du-cours)), puis exécutez la commande suivante:
-
-```bash
-datalad get science/climate -s s3
-```
+(À venir)
