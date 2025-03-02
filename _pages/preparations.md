@@ -47,7 +47,11 @@ pip install numpy pandas fastparquet scipy networkx bertopic notebook matplotlib
 
 ---
 
-### 4. Télécharger les notebooks et données du cours
+### 4. Installer Gephi
+
+Téléchargez et installer [gephi](https://gephi.org/), une interface graphique pour la visualisation de réseaux.
+
+### 5. Télécharger les notebooks et données du cours
 
 Vous pouvez installer les notebooks ainsi:
 
