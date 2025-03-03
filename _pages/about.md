@@ -29,5 +29,5 @@ Vous y trouverez des instructions pour démarrer, ainsi que les données et note
 
 ## Contact
 
- - [Camille Roth](https://enseignements.ehess.fr/2024-2025/intervenants/7535) (référent) <a href="camille.roth@ehess.fr">✉️</a> 
+ - [Camille Roth](https://enseignements.ehess.fr/2024-2025/intervenants/7535) (référent) <a href="mailto:camille.roth@ehess.fr">✉️</a> 
  - [Lucas Gautheron](https://lucasgautheron.github.io/) <a href="mailto:lucas.gautheron@gmail.com">✉️</a> 
