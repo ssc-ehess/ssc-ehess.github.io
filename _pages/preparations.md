@@ -82,12 +82,19 @@ Depuis le dossier contenant les notebooks, tapez:
 
 ```bash
 datalad install science
+datalad install twitter
 ```
 
-Cela ne télécharge pas automatiquement toutes les données, qui prennent un peu de place. Si vous souhaitez utiliser le dataset climat, par exemple, faites:
+Cela ne télécharge pas automatiquement les données, qui prennent un peu de place. Si vous souhaitez utiliser le dataset climat, par exemple, faites:
 
 ```bash
 datalad get science/climate -s s3
+```
+
+Pour twitter:
+
+```bash
+datalad get twitter
 ```
 
 

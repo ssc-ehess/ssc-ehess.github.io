@@ -25,9 +25,10 @@ Ce jeu de données couvre la littérature scientifique sur le climat de 2015 à 
 
 #### Téléchargement automatique
 
-Pour télécharger le corpus automatiquement installez les notebooks (comme expliqué [ici](preparations/#4-télécharger-les-notebooks-et-données-du-cours)), puis exécutez la commande suivante:
+Pour télécharger le corpus automatiquement, installez les notebooks (comme expliqué [ici](preparations/#4-télécharger-les-notebooks-et-données-du-cours)), puis exécutez la commande suivante:
 
 ```bash
+datalad install science
 datalad get science/climate -s s3
 ```
 
@@ -52,4 +53,15 @@ datalad get science/econ
 
 ### 2. Impact investing (twitter)
 
-(À venir)
+#### Téléchargement manuel
+
+ - Téléchargement rapide [ici](https://scc-ehess-science.s3.eu-west-1.amazonaws.com/tweets.parquet).
+
+#### Téléchargement automatique
+
+Pour télécharger le corpus automatiquement, installez les notebooks (comme expliqué [ici](preparations/#4-télécharger-les-notebooks-et-données-du-cours)), puis exécutez la commande suivante:
+
+```bash
+datalad install twitter
+datalad get twitter
+```
