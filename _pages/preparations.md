@@ -107,7 +107,7 @@ jupyter notebook
 
 > ##### TIP
 >
-> N'oublié pas de mettre régulièrement vos notebooks à jour en tapant
+> N'oubliez pas de mettre régulièrement vos notebooks à jour en tapant
 > `git pull` dans le terminal.
 {: .block-tip }
 
