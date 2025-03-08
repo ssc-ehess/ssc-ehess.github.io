@@ -18,7 +18,7 @@ toc:
 ## 2. Réseaux
 
  1. 2025-03-10: [Construction de réseaux avec networkx](https://github.com/ssc-ehess/notebooks/blob/main/2_constructing_networks.ipynb) (science)
- 2. 2025-03-10: [Construction de réseaux avec networkx](https://github.com/ssc-ehess/notebooks/blob/main/2_constructing_networks_twitter.ipynb) (twitter)
+ 2. 2025-03-10: [Construction de réseaux avec networkx](https://github.com/ssc-ehess/notebooks/blob/main/3_constructing_networks_twitter.ipynb) (twitter)
 
 ---
 
