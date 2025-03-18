@@ -30,4 +30,4 @@ Vous y trouverez des instructions pour démarrer, ainsi que les données et note
 ## Contact
 
  - [Camille Roth](https://enseignements.ehess.fr/2024-2025/intervenants/7535) (référent) <a href="mailto:camille.roth@ehess.fr">✉️</a> 
- - [Lucas Gautheron](https://lucasgautheron.github.io/) <a href="mailto:lucas.gautheron@gmail.com">✉️</a> <a href="https://calendly.com/lucas-gautheron/30-min-meeting" title="Réserver un entretien individuel en ligne (office hour)">📅</a>
+ - [Lucas Gautheron](https://lucasgautheron.github.io/) &nbsp; <a href="mailto:lucas.gautheron@gmail.com">✉️</a> &nbsp; <a href="https://calendly.com/lucas-gautheron/30-min-meeting" title="Réserver un entretien individuel en ligne (office hour)">👥📅</a>
