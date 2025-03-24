@@ -16,6 +16,13 @@ toc:
  4. 2025-03-17: Réseaux III: `pip install plotly pysankey seaborn`
  4. 2025-03-24: Texte I: `pip install nltk`
 
+```python
+nltk.download('punkt_tab')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger_eng')
+nltk.download('tagsets_json')
+```
+
 ---
 
 
