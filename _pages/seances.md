@@ -22,6 +22,7 @@ nltk.download('averaged_perceptron_tagger_eng')
 nltk.download('tagsets_json')
 ```
 6. 2025-04-07: `pip install gensim`; puis, dans le répertoire des notebooks, `git pull`
+7. 2025-04-28: `pip install "plotly<6.0.0"` puis, dans le répertoire des notebooks, `git pull`
 
 ---
 

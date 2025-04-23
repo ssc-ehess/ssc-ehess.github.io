@@ -27,5 +27,9 @@ toc:
 
 ## 3. Texte
 
+ 4. 2025-03-24: [Bases du traitement automatique des langues](https://github.com/ssc-ehess/notebooks/blob/main/5_basic_text_processing.ipynb) 
+ 5. 2025-04-07: [Word embeddings: représentations vectorielles du vocabulaire](https://github.com/ssc-ehess/notebooks/blob/main/6_word_embeddings.ipynb)
+ 6. 2025-04-28: [Analyse sémantique avec BERTopic](https://github.com/ssc-ehess/notebooks/blob/main/7_bertopic.ipynb)
+
 ---
 
