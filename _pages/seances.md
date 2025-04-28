@@ -22,7 +22,7 @@ nltk.download('averaged_perceptron_tagger_eng')
 nltk.download('tagsets_json')
 ```
 6. 2025-04-07: `pip install gensim`; puis, dans le répertoire des notebooks, `git pull`
-7. 2025-04-28: `pip install "plotly<6.0.0"` puis, dans le répertoire des notebooks, `git pull`
+7. 2025-04-28: 1) `pip install "plotly<6.0.0"` puis, dans le répertoire des notebooks, `git pull`. 2) Télécharger [climate_embeddings.parquet](https://scc-ehess-science.s3.eu-west-1.amazonaws.com/climate_embeddings.parquet) et le placer dans le dossier des notebooks.
 
 ---
 
